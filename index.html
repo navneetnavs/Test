@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product
+    </title>
+</head>
+<body>
+    <div style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;">
+        <img src="download.jpeg" alt="shirt" style="width:100%">
+        <h1>White Shirt</h1>
+        <p style="color: grey;
+        font-size: 22px;">$50</p>
+        <p>DENNISLINGO PREMIUM ATTIRE
+            Men Full Sleeves Slim Fit Shirt</p>
+        <p><button style="border: none;
+            outline: 0;
+            padding: 12px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;">Add to Cart</button></p>
+      </div>
+      <script>
+      let num = 1;
+    function onButtonClick() {   
+  alert(`${num} time your item has been added to cart !`);
+  num = num +1;
+}
+
+const button = document.querySelector('button');
+button.addEventListener('click', onButtonClick);
+      </script>
+</body>
+</html>
